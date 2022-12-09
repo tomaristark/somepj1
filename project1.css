@@ -1,0 +1,105 @@
+body{
+    background-image: url(a.jpg);
+    display: flex;
+   align-items: center ;
+   height: 1000px;
+  justify-content: space-around;
+  
+}
+.spn1{
+    position: relative;
+    color: rgb(0, 153, 255); 
+    
+}
+.spn1::after{
+    content: '';
+    position: absolute;
+    bottom: 0px;
+    top:40px;
+    left: 50px;
+    right: 0px;
+    width: 300px;
+    border-bottom: 5px solid aqua;
+}
+fieldset{
+    background-color: #B1D4E0;
+    text-align: left;
+    padding: 20px 100px 20px 30px;
+   width: 50%;
+   border-radius: 10px;
+   height: 650px;
+   border: none;
+}
+legend{
+    border-radius: 10px;
+    background-color: pink;
+    font-size: 20px;
+    padding:10px 20px 10px 20px;
+    color: white; 
+}
+.table tr td{ font-size: 25px;
+              padding-right: 5px;
+              padding-bottom: 20px;
+              padding-left: 20px;
+              
+}
+/* input{
+    border-radius: 4px;
+    width: 250px;
+    height: 30px;
+    border-color: white; */
+.name{
+    border-radius: 4px;
+    width: 270px;
+    height: 30px;
+    border-color: white;
+}
+.ph{
+    border-radius: 4px;
+    width: 270px;
+    height: 30px;
+    border-color: white;
+}
+.email{
+    border-radius: 4px;
+    width: 270px;
+    height: 30px;
+    border-color: white;
+}
+.pass{
+    border-radius: 4px;
+    width: 270px;
+    height: 30px;
+    border-color: white;
+}
+.date{
+    border-radius: 4px;
+    width: 270px;
+    height: 30px;
+    border-color: white;
+}
+.home{
+    border-radius: 4px;
+    width: 270px;
+    height: 30px;
+    border-color: white;
+}
+.bn1{
+    background-color: pink;
+    border: none;
+    border-radius: 5px;
+    color:white;
+    width:60px;
+    height: 40px;
+}
+.bn2{
+    background-color: pink;
+    border: none;
+    border-radius: 5px;
+    color:white;
+    width:60px;
+    height: 40px;
+}
+.cl{
+    padding-right: 250px !important;
+}
